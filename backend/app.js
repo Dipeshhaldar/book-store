@@ -5,8 +5,8 @@ const bookRoute = require("./routes/booksRoutes");
 require("./connection/conn");
 app.use(cors());
 app.use(express.json());
-app.use("/api/v1", bookRoute);
+app.use("/bookstore", bookRoute);
 
-app.listen(1000, () => {
+app.listen(8000, () => {
   console.log("SERVER STARTED SUCCESSFULLY");
 });

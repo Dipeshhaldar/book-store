@@ -19,7 +19,7 @@ const BookDetail = () => {
     const fetchHandler = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:1000/api/v1/getBooks/${id}`
+          `http://localhost:8000/bookstore/getBooks/${id}`
         );
         return response.data;
       } catch (error) {
@@ -31,7 +31,7 @@ const BookDetail = () => {
 
   const sendRequest = async () => {
     await axios
-      .put(`http://localhost:1000/api/v1/updateBook/${id}`, {
+      .put(`http://localhost:8000/bookstore/updateBook/${id}`, {
           bookname: String(Data.bookname),
           author: String(Data.author),
           description: String(Data.description),

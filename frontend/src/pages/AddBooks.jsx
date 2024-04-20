@@ -21,7 +21,7 @@ const AddBooks = () => {
   const submit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:1000/api/v1/add", Data)
+      .post("http://localhost:8000/bookstore/add", Data)
       .then((res) => alert(res.data.message))
       .then(() => navigate("/books"));
     setData({

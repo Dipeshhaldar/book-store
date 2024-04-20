@@ -41,7 +41,7 @@ const BooksSection = ({ data }) => {
                 onClick={async () => {
                   await axios
                     .delete(
-                      `http://localhost:1000/api/v1/deleteBook/${item._id}`
+                      `http://localhost:8000/bookstore/deleteBook/${item._id}`
                     )
                     .then((res) => res.data)
                     // .then(() => navigate("/"))

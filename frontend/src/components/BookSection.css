@@ -1,0 +1,42 @@
+.border__box {
+  width: 300px;
+  height: 31rem;
+  background-color: transparent;
+  border: 2px solid rgba(98, 146, 98, 0.692);
+  border-radius: 1rem;
+}
+
+.book__image {
+  width: 300px;
+  height: 320px;
+  border-radius: 1.5rem 1.5rem 0 0;
+  padding: 14px;
+}
+
+.book__name {
+    font-size: 1.2 rem;
+    color: wheat;
+    text-align: center;
+}
+
+.book__button {
+    text-decoration: none;
+    border: 2px solid #64FFDA;
+    background-color: transparent;
+    color: #64FFDA;
+    border-radius: 8px;
+    padding: 4px 18px;
+    margin-top: 10px;
+}
+
+.update__button:hover {
+    background-color: rgba(104, 231, 220, 0.753);
+    border: 2px solid white;
+    color: white;
+}
+
+.delete__button:hover {
+    background-color: rgba(238, 79, 79, 0.871);
+    border: 2px solid white;
+    color: white;
+}

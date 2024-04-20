@@ -1,0 +1,15 @@
+.Home-Page{
+    width: 100%;
+    min-height: 91.5vh;
+    max-height: auto;
+    padding-bottom: 24px;
+}
+
+.viewBook{
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.viewBook:hover{
+    color: rgb(37, 73, 47);
+}
